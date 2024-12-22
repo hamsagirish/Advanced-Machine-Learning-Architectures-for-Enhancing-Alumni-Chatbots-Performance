@@ -1,0 +1,2 @@
+# Advanced-Machine-Learning-Architectures-for-Enhancing-Alumni-Chatbots-Performance
+The Alumni Network is a web platform fostering alumni-institution engagement. It features alumni registration, event booking, a chatbox, and an LSTM-based chatbot for user queries. Admins manage data, events, and content. With robust security and automation, it streamlines alumni networking, event management, and fosters long-term connections.
