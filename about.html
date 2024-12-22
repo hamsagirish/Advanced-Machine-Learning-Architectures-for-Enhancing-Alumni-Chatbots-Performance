@@ -1,0 +1,55 @@
+{% extends 'index.html' %}
+
+
+{% block navbar %}
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="{{url_for('index')}}" style="color: white;">Home</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="{{url_for('about')}}" style="color: yellow; padding-left: 40px;">About</a>
+         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('login')}}" style="color: white; padding-left: 40px;">LogIn</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('events')}}" style="color: white; padding-left: 40px;">Events</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('gallery')}}" style="color: white; padding-left: 40px;">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('news')}}" style="color: white; padding-left: 40px;">News</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('achiever')}}" style="color: white; padding-left: 40px;">Achievers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url_for('chatbot')}}" style="color: white; padding-left: 40px;">Chatbot</a>
+        </li>
+    </ul>
+{% endblock %}
+
+
+{% block content %}
+    <div style="display: flex; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.655); min-height: 700px;">
+        <div class="p-4 bg-white rounded shadow">
+            <div class="row">
+                <div class="col">
+                    <img src="/static/images/PU.jpeg">
+                </div>
+                <div class="col">
+                    <p style="text-align: justify;">
+                        Presidency University, founded in 2015, is a part of the Presidency Group of Institutions. It is dedicated to innovation and research-oriented teaching methodologies and offers a contemporary curriculum that is industry-friendly and meaningful.
+
+The university is committed to providing interdisciplinary-centric, outcome-based education through a combination of theoretical knowledge, applied science, and experiential learning processes. <br/> A safety net that holds precious life where the young ones receive care, protection and unconditional love. It is the place from where uncertain steps transform into confident strides as the bird takes off on a trajectory of its own into this wide world. The world of books embraces the young students as they enter the university portals in scholarly pursuit, where they are guided, protected, and watched over with care and love until they are fashioned for flight, and from where they embark on a journey full of confidence and readiness to face the world, soaring to great heights with accomplishments that bring laurels to the alma mater, their families, and themselves.
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
